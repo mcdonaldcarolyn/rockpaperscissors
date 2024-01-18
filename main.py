@@ -41,4 +41,14 @@ while True:
     if playerMove == computerMove:
         print('It\s a tie!')
         ties = ties + 1
+    elif playerMove == 'ROCK' and computerMove == 'SCISSORS':
+        print('you win- slay')
+        wins = wins + 1 
+    elif playerMove == 'PAPER' and computerMove == 'SCISSORS':
+        print( 'awesome, you win')
+        wins = wins + 1 
+    elif playerMove == 'SCISSORS' and computerMove == 'PAPER':
+        print ('boo- yah, you win') 
+        wins = wins + 1
+        
      
