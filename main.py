@@ -50,5 +50,10 @@ while True:
     elif playerMove == 'SCISSORS' and computerMove == 'PAPER':
         print ('boo- yah, you win') 
         wins = wins + 1
-        
+    elif playerMove == 'ROCK' and computerMove == 'PAPER':
+        print('ugh you lost')
+        losses = losses + 1
+    elif playerMove == 'Paper' and computerMove == 'SCISSORS':
+        print('shucks, you super lost')
+        losses = losses + 1
      
