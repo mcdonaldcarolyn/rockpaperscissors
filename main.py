@@ -38,4 +38,7 @@ while True:
     print('3....')
     time.sleep(0.25)
 
-    
+    if playerMove == computerMove:
+        print('It\s a tie!')
+        ties = ties + 1
+     
