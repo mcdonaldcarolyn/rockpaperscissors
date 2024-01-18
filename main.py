@@ -38,6 +38,8 @@ while True:
     print('3....')
     time.sleep(0.25)
 
+    randomNumber = random.randit(1.3)
+
     if playerMove == computerMove:
         print('It\s a tie!')
         ties = ties + 1
@@ -59,4 +61,4 @@ while True:
     elif playerMove == 'SCISSORS' and computerMove == 'ROCK':
         print('LOST LOST LOST')
         losses = losses + 1 
-             
+
