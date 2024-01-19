@@ -38,14 +38,14 @@ while True:
     print('3....')
     time.sleep(0.25)
 
-    randomNumber = random.randint(1.3)
+    randomNumber = random.randint(1, 3)
     if randomNumber == 1:
-        computerMove == 'ROCK'
+        computerMove = 'ROCK'
     elif randomNumber == 2:
         computerMove = 'PAPER'
     elif randomNumber == 3:
         computerMove = 'SCISSORS'
-    print(CcomputerMove)
+    print(computerMove)
     time.sleep(0.5)
 
     if playerMove == computerMove:
