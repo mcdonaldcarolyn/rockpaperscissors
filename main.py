@@ -38,7 +38,7 @@ while True:
     print('3....')
     time.sleep(0.25)
 
-    randomNumber = random.randit(1.3)
+    randomNumber = random.randint(1.3)
     if randomNumber == 1:
         computerMove == 'ROCK'
     elif randomNumber == 2:
