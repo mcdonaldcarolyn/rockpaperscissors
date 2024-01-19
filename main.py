@@ -39,6 +39,14 @@ while True:
     time.sleep(0.25)
 
     randomNumber = random.randit(1.3)
+    if randomNumber == 1:
+        computerMove == 'ROCK'
+    elif randomNumber == 2:
+        computerMove = 'PAPER'
+    elif randomNumber == 3:
+        computerMove = 'SCISSORS'
+    print(CcomputerMove)
+    time.sleep(0.5)
 
     if playerMove == computerMove:
         print('It\s a tie!')
